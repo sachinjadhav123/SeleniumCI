@@ -19,7 +19,7 @@
 					<connectors>
 						<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
 							<port>8080</port>
-							<maxIdleTime>60000</maxIdleTime>
+							<maxIdleTime>70000</maxIdleTime>
 						</connector>
 					</connectors>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
